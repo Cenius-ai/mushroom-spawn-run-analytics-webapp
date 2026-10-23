@@ -1,0 +1,35 @@
+[theme]
+base = "light"
+primaryColor = "#528a54"
+backgroundColor = "#f8fcf5"
+secondaryBackgroundColor = "#eaeee7"
+textColor = "#10150b"
+linkColor = "#3a6b3c"
+borderColor = "#dcdfd9"
+showWidgetBorder = true
+baseRadius = "0.75rem"
+buttonRadius = "0.625rem"
+font = "Lexend, sans-serif"
+headingFont = "Lexend, sans-serif"
+baseFontSize = 15
+chartCategoricalColors = ["#528a54", "#0072B2", "#D55E00", "#009E73", "#CC79A7"]
+
+[[theme.fontFaces]]
+family = "Lexend"
+url = "app/static/fonts/lexend-latin.woff2"
+weight = 400
+style = "normal"
+
+[server]
+headless = true
+address = "0.0.0.0"
+port = 8501
+enableStaticServing = true
+fileWatcherType = "none"
+
+[browser]
+gatherUsageStats = false
+
+[client]
+toolbarMode = "minimal"
+showSidebarNavigation = true
